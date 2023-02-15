@@ -1,0 +1,13 @@
+version: "3"
+services:
+  mock:
+    image: wiremock/wiremock:latest-alpine
+    volumes:
+      - "./wiremock/stubs:/home/wiremock"
+    ports:
+      - 8080:8080
+    networks:
+      - mynetwork
+    restart: on-failure
+networks:
+  mynetwork:

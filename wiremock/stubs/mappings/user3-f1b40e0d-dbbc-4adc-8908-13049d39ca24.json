@@ -1,0 +1,17 @@
+{
+  "id" : "f1b40e0d-dbbc-4adc-8908-13049d39ca24",
+  "request" : {
+    "url" : "/user/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "bodyFileName" : "path/to/response_404.json",
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "f1b40e0d-dbbc-4adc-8908-13049d39ca24",
+  "persistent" : true,
+  "insertionIndex" : 4
+}

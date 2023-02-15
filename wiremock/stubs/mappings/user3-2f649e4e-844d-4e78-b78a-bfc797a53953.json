@@ -1,0 +1,17 @@
+{
+  "id" : "2f649e4e-844d-4e78-b78a-bfc797a53953",
+  "request" : {
+    "url" : "/user/3",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "bodyFileName" : "response_404.json",
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "2f649e4e-844d-4e78-b78a-bfc797a53953",
+  "persistent" : true,
+  "insertionIndex" : 5
+}

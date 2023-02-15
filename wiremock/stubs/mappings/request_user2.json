@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "headers": {
+      "authorization": {
+        "equalTo": "token 1234567890",
+        "caseInsensitive": true
+      }
+    },
+    "url": "/api/users?from=2020-12-25"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "2020-12-25.json"
+  }
+}

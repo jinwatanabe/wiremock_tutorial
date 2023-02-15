@@ -1,0 +1,21 @@
+{
+  "id" : "8224f7a2-9e21-4b6d-8f57-e738e366062d",
+  "request" : {
+    "url" : "/user/2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+      "status" : "Success",
+      "name" : "test",
+      "email" : "test@gmai.com"
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "8224f7a2-9e21-4b6d-8f57-e738e366062d",
+  "persistent" : true,
+  "insertionIndex" : 3
+}
